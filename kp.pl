@@ -25,7 +25,7 @@ mother('Хван Марьяна','Пак Татьяна').
 father('Ли Иван','Ли Митрафан').
 mother('Ли Мария','Ли Митрафан').
 
-tesha(X, Y):-
-    father(X,Child), mother(Wife,Child),
+tesha(X, Y):- father(X,Child), 
+    mother(Wife,Child),
     mother(Y,Wife),
     !.
