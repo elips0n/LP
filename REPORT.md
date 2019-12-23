@@ -39,7 +39,7 @@
 ```
 tesha(X, Y):- father(X,Child),
     mother(Wife,Child), 
-    mother(Y, Wife), 
+    mother(Y,Wife), 
     !.
 ```
 
