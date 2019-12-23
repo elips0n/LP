@@ -37,8 +37,7 @@
 Теща - это мать жены, соотвественно необходимо через общего потомка (Child) найти супругу, а далее через mother найти ее мать.
 
 ```
-tesha(X, Y):- 
-    father(X,Child),
+tesha(X, Y):- father(X,Child),
     mother(Wife,Child), 
     mother(Y, Wife), 
     !.
